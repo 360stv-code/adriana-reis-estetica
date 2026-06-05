@@ -251,41 +251,6 @@ h3 { font-size: clamp(1.3rem, 3vw, 1.55rem); font-weight: 500; }
 .section-head-center h2 { margin: 0 auto; }
 .section-head-center .eyebrow { justify-content: center; }
 
-/* Marquee decorativo */
-.marquee {
-  overflow: hidden;
-  background: var(--ink);
-  color: var(--bg);
-  padding: 22px 0;
-  position: relative;
-}
-.marquee-track {
-  display: flex;
-  white-space: nowrap;
-  animation: marquee 38s linear infinite;
-  gap: 60px;
-}
-.marquee-item {
-  font-family: var(--font-display);
-  font-style: italic;
-  font-size: 1.45rem;
-  color: var(--gold-light);
-  display: flex;
-  align-items: center;
-  gap: 60px;
-  flex-shrink: 0;
-}
-.marquee-item::after {
-  content: '✦';
-  color: var(--gold);
-  font-size: 1rem;
-  font-style: normal;
-}
-@keyframes marquee {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
-}
-
 /* Header */
 .header {
   position: fixed;
@@ -1152,23 +1117,23 @@ h3 { font-size: clamp(1.3rem, 3vw, 1.55rem); font-weight: 500; }
   </div>
 </section>
 
-<!-- Marquee decorativo -->
-<div class="marquee" aria-hidden="true">
-  <div class="marquee-track">
-    <span class="marquee-item">Limpeza de Pele</span>
-    <span class="marquee-item">Peeling Químico</span>
-    <span class="marquee-item">Hidratação Facial</span>
-    <span class="marquee-item">Radiofrequência</span>
-    <span class="marquee-item">Anti-Aging</span>
-    <span class="marquee-item">Vapor de Ozônio</span>
-    <span class="marquee-item">Limpeza de Pele</span>
-    <span class="marquee-item">Peeling Químico</span>
-    <span class="marquee-item">Hidratação Facial</span>
-    <span class="marquee-item">Radiofrequência</span>
-    <span class="marquee-item">Anti-Aging</span>
-    <span class="marquee-item">Vapor de Ozônio</span>
+<!-- Sobre - movido pra depois do hero -->
+<section class="section section-warm" id="sobre">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-image reveal">
+        <img src="img/adriana-reis-fundadora-estetica-moema.jpg" alt="Adriana Reis, fundadora da estética em Moema" loading="lazy" width="600" height="750">
+      </div>
+      <div class="about-content reveal">
+        <span class="eyebrow">Sobre</span>
+        <h2>Cuidado <em>personalizado</em>, resultados reais</h2>
+        <p>Há mais de cinco anos, dedico-me a transformar a autoestima de mulheres no coração de Moema, através de protocolos exclusivos de estética avançada.</p>
+        <p>Cada cliente recebe um plano de tratamento desenvolvido a partir de uma avaliação cuidadosa do tipo de pele, histórico individual e objetivos pessoais. Tecnologia avançada combinada com cosméticos profissionais das melhores marcas do mercado.</p>
+        <div class="about-signature">— Adriana Reis</div>
+      </div>
+    </div>
   </div>
-</div>
+</section>
 
 <!-- Tratamentos -->
 <section class="section" id="tratamentos">
@@ -1251,26 +1216,8 @@ h3 { font-size: clamp(1.3rem, 3vw, 1.55rem); font-weight: 500; }
   </div>
 </section>
 
-<!-- Sobre -->
-<section class="section" id="sobre">
-  <div class="container">
-    <div class="about-grid">
-      <div class="about-image reveal">
-        <img src="img/adriana-reis-fundadora-estetica-moema.jpg" alt="Adriana Reis, fundadora da estética em Moema" loading="lazy" width="600" height="750">
-      </div>
-      <div class="about-content reveal">
-        <span class="eyebrow">Sobre</span>
-        <h2>Cuidado <em>personalizado</em>, resultados reais</h2>
-        <p>Há mais de cinco anos, dedico-me a transformar a autoestima de mulheres no coração de Moema, através de protocolos exclusivos de estética avançada.</p>
-        <p>Cada cliente recebe um plano de tratamento desenvolvido a partir de uma avaliação cuidadosa do tipo de pele, histórico individual e objetivos pessoais. Tecnologia avançada combinada com cosméticos profissionais das melhores marcas do mercado.</p>
-        <div class="about-signature">— Adriana Reis</div>
-      </div>
-    </div>
-  </div>
-</section>
-
 <!-- Cursos preview -->
-<section class="section section-warm">
+<section class="section">
   <div class="container">
     <div class="section-head section-head-center">
       <span class="eyebrow eyebrow-center">Cursos</span>
