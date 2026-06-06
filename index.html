@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
 <meta name="theme-color" content="#2a201a">
 
-<title>Estética em Moema · Adriana Reis Beauty | Tratamentos Faciais Avançados</title>
-<meta name="description" content="Estética avançada em Moema. Limpeza de pele, peeling, radiofrequência, hidratação facial e protocolos anti-aging em ambiente exclusivo. Av. Rouxinol, 1041 — atendimento personalizado por Adriana Reis.">
+<title>Estética em Moema · Adriana Reis Beauty</title>
+<meta name="description" content="Tratamentos faciais avançados em Moema: limpeza de pele, peeling, radiofrequência e anti-aging. Atendimento personalizado por Adriana Reis.">
 <meta name="keywords" content="estética Moema, estética avançada Moema, clínica de estética Moema, limpeza de pele Moema, peeling Moema, radiofrequência facial Moema, tratamentos faciais Moema, anti-aging Moema, esteticista Moema, Adriana Reis Beauty">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 <meta name="author" content="Adriana Reis Beauty">
@@ -60,8 +60,8 @@
 <link rel="manifest" href="/site.webmanifest">
 
 <style>
-html { visibility: hidden; opacity: 0; }
-html.ready { visibility: visible; opacity: 1; transition: opacity .4s ease; }
+body { opacity: 0; }
+body.ready { opacity: 1; transition: opacity .4s ease; }
 </style>
 
 <!-- Schema: BeautySalon + LocalBusiness -->
@@ -274,24 +274,14 @@ h3 { font-size: clamp(1.3rem, 3vw, 1.55rem); font-weight: 500; }
 .header.scrolled { padding: 12px 0; }
 .header-inner { display: flex; align-items: center; justify-content: space-between; gap: 20px; }
 .logo {
-  font-family: var(--font-display);
-  font-size: 1.5rem;
-  font-weight: 400;
-  letter-spacing: .02em;
-  color: var(--ink);
+  display: inline-flex;
+  align-items: center;
   line-height: 1;
+  transition: opacity .25s;
 }
-.logo em {
-  display: block;
-  font-size: .68rem;
-  font-family: var(--font-body);
-  font-style: normal;
-  letter-spacing: .35em;
-  text-transform: uppercase;
-  color: var(--gold-dark);
-  margin-top: 4px;
-  font-weight: 400;
-}
+.logo:hover { opacity: .8; }
+.logo svg { display: block; height: 56px; width: auto; }
+@media (max-width: 600px) { .logo svg { height: 46px; } }
 .nav { display: none; gap: 32px; }
 .nav a {
   font-size: .8rem;
@@ -577,8 +567,18 @@ h3 { font-size: clamp(1.3rem, 3vw, 1.55rem); font-weight: 500; }
   color: white;
   box-shadow: 0 8px 28px rgba(37, 211, 102, .35), 0 2px 8px rgba(0,0,0,.15);
   z-index: 95;
-  transition: all .35s cubic-bezier(.2,.7,.3,1);
-  animation: wa-pulse 2.4s infinite;
+  transition: transform .35s cubic-bezier(.2,.7,.3,1);
+}
+/* Anel pulsante - GPU accelerated (transform + opacity) */
+.wa-fab::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: var(--whatsapp);
+  z-index: -1;
+  animation: wa-ring 2.4s ease-out infinite;
+  pointer-events: none;
 }
 .wa-fab::before {
   content: '';
@@ -586,7 +586,7 @@ h3 { font-size: clamp(1.3rem, 3vw, 1.55rem); font-weight: 500; }
   inset: -4px;
   border-radius: 50%;
   background: linear-gradient(135deg, var(--whatsapp), var(--whatsapp-dark));
-  z-index: -1;
+  z-index: -2;
   opacity: 0;
   filter: blur(12px);
   transition: opacity .35s;
@@ -597,13 +597,9 @@ h3 { font-size: clamp(1.3rem, 3vw, 1.55rem); font-weight: 500; }
 .wa-fab:hover::before { opacity: .5; }
 .wa-fab svg { width: 28px; height: 28px; }
 
-@keyframes wa-pulse {
-  0%, 100% {
-    box-shadow: 0 8px 28px rgba(37, 211, 102, .35), 0 2px 8px rgba(0,0,0,.15), 0 0 0 0 rgba(37, 211, 102, .5);
-  }
-  50% {
-    box-shadow: 0 8px 28px rgba(37, 211, 102, .35), 0 2px 8px rgba(0,0,0,.15), 0 0 0 16px rgba(37, 211, 102, 0);
-  }
+@keyframes wa-ring {
+  0% { transform: scale(1); opacity: .45; }
+  100% { transform: scale(1.55); opacity: 0; }
 }
 
 /* Tooltip do FAB (só desktop) */
@@ -1064,7 +1060,15 @@ h3 { font-size: clamp(1.3rem, 3vw, 1.55rem); font-weight: 500; }
 
 <header class="header" id="header">
   <div class="container header-inner">
-    <a href="#" class="logo">Adriana Reis<em>Beauty · Moema</em></a>
+    <a href="#" class="logo" aria-label="Adriana Reis Beauty - Estética em Moema">
+      <svg width="200" height="64" viewBox="0 0 380 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <line x1="120" y1="28" x2="260" y2="28" stroke="var(--gold)" stroke-width="0.6"/>
+        <circle cx="190" cy="28" r="1.8" fill="var(--gold)"/>
+        <text x="190" y="68" text-anchor="middle" font-family="'Cormorant Garamond', Georgia, serif" font-weight="400" font-size="38" fill="var(--ink)" letter-spacing="0.5">Adriana <tspan font-style="italic" fill="var(--gold-dark)">Reis</tspan></text>
+        <text x="190" y="92" text-anchor="middle" font-family="'Manrope', sans-serif" font-weight="500" font-size="9" fill="var(--gold-dark)" letter-spacing="6">B E A U T Y · M O E M A</text>
+        <line x1="120" y1="104" x2="260" y2="104" stroke="var(--gold)" stroke-width="0.6"/>
+      </svg>
+    </a>
     <nav class="nav">
       <a href="#tratamentos">Tratamentos</a>
       <a href="#resultados">Resultados</a>
@@ -1446,7 +1450,7 @@ h3 { font-size: clamp(1.3rem, 3vw, 1.55rem); font-weight: 500; }
 </a>
 
 <script>
-document.documentElement.classList.add('ready');
+document.body.classList.add('ready');
 
 const header = document.getElementById('header');
 window.addEventListener('scroll', () => {
