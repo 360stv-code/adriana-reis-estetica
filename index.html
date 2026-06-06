@@ -60,9 +60,10 @@
 <link rel="manifest" href="/site.webmanifest">
 
 <style>
-body { opacity: 0; }
-body.ready { opacity: 1; transition: opacity .4s ease; }
+body { opacity: 0; transition: opacity .4s ease; }
+body.ready { opacity: 1; }
 </style>
+<noscript><style>body { opacity: 1 !important; }</style></noscript>
 
 <!-- Schema: BeautySalon + LocalBusiness -->
 <script type="application/ld+json">
@@ -1450,7 +1451,14 @@ h3 { font-size: clamp(1.3rem, 3vw, 1.55rem); font-weight: 500; }
 </a>
 
 <script>
-document.body.classList.add('ready');
+// Anti-FOUC garantido — funciona mesmo se outras partes do JS falharem
+(function(){
+  function go(){ document.body && document.body.classList.add('ready'); }
+  if (document.body) go();
+  else document.addEventListener('DOMContentLoaded', go);
+  // fallback de segurança
+  setTimeout(go, 100);
+})();
 
 const header = document.getElementById('header');
 window.addEventListener('scroll', () => {
