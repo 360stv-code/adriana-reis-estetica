@@ -33,9 +33,10 @@
 <link rel="manifest" href="/site.webmanifest">
 
 <style>
-body { opacity: 0; }
-body.ready { opacity: 1; transition: opacity .4s ease; }
+body { opacity: 0; transition: opacity .4s ease; }
+body.ready { opacity: 1; }
 </style>
+<noscript><style>body { opacity: 1 !important; }</style></noscript>
 
 <!-- Schema: Course -->
 <script type="application/ld+json">
@@ -709,7 +710,12 @@ h3 { font-size: clamp(1.2rem, 3vw, 1.45rem); font-weight: 500; }
 </a>
 
 <script>
-document.body.classList.add('ready');
+(function(){
+  function go(){ document.body && document.body.classList.add('ready'); }
+  if (document.body) go();
+  else document.addEventListener('DOMContentLoaded', go);
+  setTimeout(go, 100);
+})();
 
 document.querySelectorAll('.faq-question').forEach(btn => {
   btn.addEventListener('click', () => btn.parentElement.classList.toggle('open'));
