@@ -113,7 +113,7 @@ body.ready { opacity: 1; }
   "paymentAccepted": "Cartão de crédito, Cartão de débito, NFC, PIX",
   "currenciesAccepted": "BRL",
   "hasMap": "https://www.google.com/maps?q=Avenida+Rouxinol+1041+Moema+Sao+Paulo",
-  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "47", "bestRating": "5", "worstRating": "1" },
+  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "5", "bestRating": "5", "worstRating": "1" },
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
     "name": "Tratamentos e Cursos",
@@ -281,9 +281,9 @@ h3 { font-size: clamp(1.3rem, 3vw, 1.55rem); font-weight: 500; }
   transition: opacity .25s;
 }
 .logo:hover { opacity: .8; }
-.logo svg { display: block; height: 60px; width: auto; }
-@media (max-width: 600px) { .logo svg { height: 64px; } }
-@media (max-width: 380px) { .logo svg { height: 56px; } }
+.logo svg { display: block; height: 78px; width: auto; }
+@media (max-width: 600px) { .logo svg { height: 72px; } }
+@media (max-width: 380px) { .logo svg { height: 64px; } }
 .nav { display: none; gap: 32px; }
 .nav a {
   font-size: .8rem;
@@ -773,11 +773,12 @@ h3 { font-size: clamp(1.3rem, 3vw, 1.55rem); font-weight: 500; }
 }
 .about-image {
   position: relative;
-  aspect-ratio: 4/5;
+  aspect-ratio: 9/16;
   overflow: hidden;
   border-radius: 4px;
+  max-height: 720px;
 }
-.about-image img { width: 100%; height: 100%; object-fit: cover; }
+.about-image img { width: 100%; height: 100%; object-fit: cover; object-position: center top; }
 .about-image::after {
   content: '';
   position: absolute;
@@ -1063,12 +1064,12 @@ h3 { font-size: clamp(1.3rem, 3vw, 1.55rem); font-weight: 500; }
 <header class="header" id="header">
   <div class="container header-inner">
     <a href="#" class="logo" aria-label="Adriana Reis Beauty - Estética em Moema">
-      <svg width="200" height="64" viewBox="0 0 380 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-        <line x1="120" y1="28" x2="260" y2="28" stroke="var(--gold)" stroke-width="0.6"/>
-        <circle cx="190" cy="28" r="1.8" fill="var(--gold)"/>
-        <text x="190" y="68" text-anchor="middle" font-family="'Cormorant Garamond', Georgia, serif" font-weight="400" font-size="38" fill="var(--ink)" letter-spacing="0.5">Adriana <tspan font-style="italic" fill="var(--gold-dark)">Reis</tspan></text>
-        <text x="190" y="92" text-anchor="middle" font-family="'Manrope', sans-serif" font-weight="500" font-size="9" fill="var(--gold-dark)" letter-spacing="6">B E A U T Y · M O E M A</text>
-        <line x1="120" y1="104" x2="260" y2="104" stroke="var(--gold)" stroke-width="0.6"/>
+      <svg width="240" height="84" viewBox="0 0 280 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <line x1="40" y1="18" x2="240" y2="18" stroke="var(--gold)" stroke-width="0.6"/>
+        <circle cx="140" cy="18" r="1.8" fill="var(--gold)"/>
+        <text x="140" y="58" text-anchor="middle" font-family="'Cormorant Garamond', Georgia, serif" font-weight="400" font-size="38" fill="var(--ink)" letter-spacing="0.5">Adriana <tspan font-style="italic" fill="var(--gold-dark)">Reis</tspan></text>
+        <text x="140" y="80" text-anchor="middle" font-family="'Manrope', sans-serif" font-weight="500" font-size="9" fill="var(--gold-dark)" letter-spacing="6">B E A U T Y · M O E M A</text>
+        <line x1="40" y1="92" x2="240" y2="92" stroke="var(--gold)" stroke-width="0.6"/>
       </svg>
     </a>
     <nav class="nav">
@@ -1138,7 +1139,7 @@ h3 { font-size: clamp(1.3rem, 3vw, 1.55rem); font-weight: 500; }
       </div>
 
       <div class="hero-image">
-        <img src="img/estetica-moema-sala-atendimento.jpg" alt="Sala de atendimento da estética em Moema com maca preparada e luz LED profissional" loading="eager" fetchpriority="high" width="591" height="1280">
+        <img src="img/estetica-moema-atendimento-vapor-ozonio.jpg" alt="Cliente em atendimento de estética facial em Moema com vapor de ozônio" loading="eager" fetchpriority="high" width="591" height="1280">
         <div class="hero-image-frame"></div>
         <div class="hero-image-badge">
           <div class="label">Cuidado</div>
@@ -1159,7 +1160,7 @@ h3 { font-size: clamp(1.3rem, 3vw, 1.55rem); font-weight: 500; }
       <div class="about-content reveal">
         <span class="eyebrow">Sobre</span>
         <h2>Cuidado <em>personalizado</em>, resultados reais</h2>
-        <p>Há mais de cinco anos, dedico-me a transformar a autoestima de mulheres no coração de Moema, através de protocolos exclusivos de estética avançada.</p>
+        <p>Há quase uma década atuando em estética avançada, dedico-me a transformar a autoestima de mulheres no coração de Moema, através de protocolos exclusivos e atendimento personalizado.</p>
         <p>Cada cliente recebe um plano de tratamento desenvolvido a partir de uma avaliação cuidadosa do tipo de pele, histórico individual e objetivos pessoais. Tecnologia avançada combinada com cosméticos profissionais das melhores marcas do mercado.</p>
         <div class="about-signature">— Adriana Reis</div>
       </div>
@@ -1284,6 +1285,7 @@ h3 { font-size: clamp(1.3rem, 3vw, 1.55rem); font-weight: 500; }
     </div>
   </div>
   <div class="gallery-scroll">
+    <div class="gallery-item"><img src="img/estetica-moema-sala-atendimento.jpg" alt="Sala de atendimento da estética em Moema com luz LED profissional" loading="lazy" width="591" height="1280"></div>
     <div class="gallery-item"><img src="img/estetica-moema-recepcao.jpg" alt="Espaço amplo da estética em Moema - vista geral" loading="lazy" width="1100" height="507"></div>
     <div class="gallery-item"><img src="img/estetica-moema-cabine-tratamento.jpg" alt="Cabine de tratamento facial em Moema" loading="lazy" width="591" height="1280"></div>
     <div class="gallery-item"><img src="img/estetica-moema-detalhe-orquidea.jpg" alt="Detalhe acolhedor da recepção - orquídea e café" loading="lazy" width="600" height="1299"></div>
