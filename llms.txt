@@ -1,61 +1,62 @@
-# Adriana Reis Beauty — Estética em Moema
+# Adriana Reis Beauty
 
-> Estética facial avançada em Moema, São Paulo. Atendimento personalizado por Adriana Reis com protocolos exclusivos de tratamento facial em ambiente premium.
+> Clínica de estética facial premium em Moema, São Paulo. Tratamentos personalizados de limpeza de pele, peeling diamantado, hidratação facial, vapor de ozônio e protocolos anti-aging. Atendimento por horário marcado.
 
-## Informações principais
+## Sobre
 
-- **Negócio:** Adriana Reis Beauty (Estética em Moema)
-- **Profissional responsável:** Adriana Reis
-- **Endereço:** Avenida Rouxinol, 1041 - Sala 406, Moema, São Paulo - SP, CEP 04516-001
-- **WhatsApp:** (11) 94524-8415 — link: https://wa.me/5511945248415
-- **Instagram:** @adrianareis.beauty
-- **Site:** https://adrianareisestetica.com.br/
-- **Atende desde:** 2020
-- **Horário de funcionamento:**
-  - Segunda e Quarta: 9h às 16h
-  - Terça e Quinta: 9h às 18h
-  - Sexta: 9h às 15h
-  - Sábado e Domingo: fechado
-- **Áreas atendidas:** Moema, Vila Mariana, Itaim Bibi, Vila Nova Conceição, Campo Belo, Ibirapuera (São Paulo - SP)
+A Adriana Reis Beauty é uma clínica de estética facial especializada em protocolos personalizados, localizada em Moema, São Paulo. Fundada em 2020, atende mulheres da região com tratamentos exclusivos usando equipamentos profissionais (vapor de ozônio, peeling diamantado, criofrequência) e cosméticos dermatológicos da linha ADCOS.
+
+A profissional Adriana Reis atua na área desde 2017 e oferece atendimento por horário marcado, garantindo exclusividade em cada sessão.
+
+## Informações de contato
+
+- Endereço: Av. Rouxinol, 1041 - Sala 406, Moema, São Paulo - SP, CEP 04516-001
+- WhatsApp: +55 11 94524-8415
+- Instagram: @adrianareis.beauty
+- Site: https://adrianareisestetica.com.br
+
+## Horário de funcionamento
+
+- Segunda e Quarta: 9h às 16h
+- Terça e Quinta: 9h às 18h
+- Sexta: 9h às 15h
+- Sábado e Domingo: Fechado
 
 ## Tratamentos oferecidos
 
-1. **Limpeza de Pele Profunda** — higienização completa com extração, esfoliação e máscara personalizada
-2. **Peeling Químico** — renovação celular com ácidos profissionais para manchas, melasma e textura
-3. **Hidratação Facial** — reposição profunda de água e nutrientes
-4. **Radiofrequência Facial** — estímulo de colágeno para firmeza e contorno facial
-5. **Vapor de Ozônio** — ação bactericida e cicatrizante para peles oleosas
-6. **Protocolos Anti-Aging** — combinação de técnicas para prevenção e combate ao envelhecimento
+- Limpeza de Pele Profunda (60-90 minutos)
+- Peeling Diamantado (microdermoabrasão)
+- Hidratação Facial
+- Vapor de Ozônio (ação bactericida)
+- Protocolos Anti-Aging
 
-## Cursos
+## Áreas atendidas
 
-- **Curso Livre de Limpeza de Pele** (presencial em Moema)
-  - Não-profissionalizante
-  - Certificado de conclusão de curso livre
-  - Turmas reduzidas
-  - Mais informações: https://adrianareisestetica.com.br/cursos/
-  - Inscrições pelo WhatsApp: (11) 94524-8415
+Moema, Vila Mariana, Itaim Bibi, Vila Nova Conceição, Campo Belo, Ibirapuera.
 
 ## Diferenciais
 
-- Atendimento personalizado por horário marcado
-- Ambiente exclusivo em Moema
-- Cosméticos profissionais (linha ADCOS)
-- Estacionamento coberto no local
-- Acessibilidade total para cadeirantes
-- Aceita todos os principais cartões, NFC e PIX
+- Estacionamento no local com valet
+- Acessibilidade total (banheiro adaptado)
+- LGBTQ+ friendly
+- Aceita todos os cartões, NFC e PIX
+- Cosméticos profissionais ADCOS
+- Equipamentos profissionais HTM e Medical San (Criodermis)
+- Aromaterapia no ambiente
 
-## Pagamento
+## Conteúdo editorial
 
-- Cartões de crédito e débito (Visa, Mastercard, American Express, Diners, Discover, JCB)
-- NFC (pagamento por aproximação)
-- PIX
+- [Limpeza de Pele em Moema: Guia Completo](https://adrianareisestetica.com.br/noticias/limpeza-de-pele-em-moema/): guia editorial detalhado sobre o procedimento, frequência recomendada por tipo de pele, etapas do protocolo profissional, tecnologia utilizada e cuidados antes/depois.
 
-## Páginas
+## Cursos
 
-- [Página inicial](https://adrianareisestetica.com.br/)
-- [Cursos](https://adrianareisestetica.com.br/cursos/)
+A clínica oferece também **Curso Livre de Limpeza de Pele**, de natureza não-profissionalizante, voltado ao autocuidado e ao conhecimento da técnica. Detalhes em: https://adrianareisestetica.com.br/cursos/
 
-## Como agendar
+## FAQs principais
 
-O agendamento de tratamentos e a inscrição em cursos são feitos exclusivamente pelo WhatsApp (11) 94524-8415.
+- Como agendar: WhatsApp (11) 94524-8415
+- Duração da limpeza de pele: 60-90 minutos
+- Frequência recomendada: 30-90 dias dependendo do tipo de pele
+- Estacionamento: sim, valet no local
+- Formas de pagamento: cartões (todas bandeiras), NFC, PIX
+

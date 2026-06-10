@@ -1,44 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+
   <url>
     <loc>https://adrianareisestetica.com.br/</loc>
-    <lastmod>2026-06-05</lastmod>
+    <lastmod>2026-06-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <image:image>
-      <image:loc>https://adrianareisestetica.com.br/img/estetica-facial-moema-tratamento-premium.jpg</image:loc>
-      <image:title>Tratamento facial em estética avançada em Moema</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://adrianareisestetica.com.br/img/adriana-reis-fundadora-estetica-moema.jpg</image:loc>
-      <image:title>Adriana Reis - Estética em Moema</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://adrianareisestetica.com.br/img/estetica-anti-aging-moema-resultado.jpg</image:loc>
-      <image:title>Resultado de tratamento anti-aging - estética em Moema</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://adrianareisestetica.com.br/img/estetica-moema-sala-atendimento.jpg</image:loc>
-      <image:title>Sala de atendimento - Estética em Moema</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://adrianareisestetica.com.br/img/estetica-moema-recepcao.jpg</image:loc>
-      <image:title>Recepção - Estética em Moema</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://adrianareisestetica.com.br/img/estetica-moema-cosmeticos-profissionais-adcos.jpg</image:loc>
-      <image:title>Cosméticos profissionais ADCOS - Estética em Moema</image:title>
-    </image:image>
   </url>
+
   <url>
     <loc>https://adrianareisestetica.com.br/cursos/</loc>
-    <lastmod>2026-06-05</lastmod>
+    <lastmod>2026-06-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://adrianareisestetica.com.br/noticias/</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://adrianareisestetica.com.br/noticias/limpeza-de-pele-em-moema/</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication>
+        <news:name>Adriana Reis Beauty</news:name>
+        <news:language>pt</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-06</news:publication_date>
+      <news:title>Limpeza de Pele em Moema: Guia Completo + Onde Fazer (2026)</news:title>
+    </news:news>
     <image:image>
-      <image:loc>https://adrianareisestetica.com.br/img/estetica-moema-cosmeticos-profissionais-adcos.jpg</image:loc>
-      <image:title>Curso Livre de Limpeza de Pele em Moema</image:title>
+      <image:loc>https://adrianareisestetica.com.br/img/estetica-moema-cabine-tratamento.jpg</image:loc>
+      <image:title>Limpeza de pele profissional em Moema</image:title>
     </image:image>
   </url>
+
 </urlset>
