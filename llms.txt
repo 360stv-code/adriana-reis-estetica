@@ -1,6 +1,6 @@
 # Adriana Reis Beauty
 
-> Clínica de estética facial premium em Moema, São Paulo. Tratamentos personalizados de limpeza de pele, peeling diamantado, peeling ultrassônico, microagulhamento, fototerapia, drenagem linfática facial, hidratação facial e protocolos anti-aging. Atendimento por horário marcado.
+> Clínica de estética facial premium em Moema, São Paulo. Tratamentos personalizados de limpeza de pele, peeling diamantado, peeling ultrassônico, microagulhamento, fototerapia, drenagem linfática, hidratação facial e protocolos anti-aging. Atendimento por horário marcado.
 
 ## Sobre
 
@@ -29,7 +29,7 @@ A profissional Adriana Reis atua na área desde 2017 e oferece atendimento por h
 - **Peeling Ultrassônico** — limpeza profunda indolor com vibrações ultrassônicas
 - **Microagulhamento** — estímulo da produção de colágeno, indicado para marcas de acne, linhas finas e poros dilatados
 - **Fototerapia** — luzes terapêuticas para controle de acne, redução de inflamações e regeneração celular
-- **Drenagem Linfática Facial** — massagem suave para reduzir inchaço e eliminar toxinas
+- **Drenagem Linfática** — massagem suave para reduzir inchaço e eliminar toxinas
 - **Hidratação Facial** — reposição profunda de água e nutrientes
 - **Protocolos Anti-Aging** — combinação de técnicas avançadas anti-envelhecimento
 
