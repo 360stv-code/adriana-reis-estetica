@@ -1,10 +1,10 @@
 # Adriana Reis Beauty
 
-> Clínica de estética facial premium em Moema, São Paulo. Tratamentos personalizados de limpeza de pele, peeling diamantado, hidratação facial, vapor de ozônio e protocolos anti-aging. Atendimento por horário marcado.
+> Clínica de estética facial premium em Moema, São Paulo. Tratamentos personalizados de limpeza de pele, peeling diamantado, peeling ultrassônico, microagulhamento, fototerapia, drenagem linfática facial, hidratação facial e protocolos anti-aging. Atendimento por horário marcado.
 
 ## Sobre
 
-A Adriana Reis Beauty é uma clínica de estética facial especializada em protocolos personalizados, localizada em Moema, São Paulo. Fundada em 2020, atende mulheres da região com tratamentos exclusivos usando equipamentos profissionais (vapor de ozônio, peeling diamantado, criofrequência) e cosméticos dermatológicos da linha ADCOS.
+A Adriana Reis Beauty é uma clínica de estética facial especializada em protocolos personalizados, localizada em Moema, São Paulo. Atende mulheres da região com tratamentos exclusivos usando equipamentos profissionais (vapor de ozônio, peeling diamantado, peeling ultrassônico, microagulhamento, fototerapia LED, criofrequência) e cosméticos dermatológicos da linha ADCOS.
 
 A profissional Adriana Reis atua na área desde 2017 e oferece atendimento por horário marcado, garantindo exclusividade em cada sessão.
 
@@ -24,11 +24,14 @@ A profissional Adriana Reis atua na área desde 2017 e oferece atendimento por h
 
 ## Tratamentos oferecidos
 
-- Limpeza de Pele Profunda (60-90 minutos)
-- Peeling Diamantado (microdermoabrasão)
-- Hidratação Facial
-- Vapor de Ozônio (ação bactericida)
-- Protocolos Anti-Aging
+- **Limpeza de Pele Profunda** — higienização, esfoliação, vapor de ozônio, extração e máscara personalizada (60-90 min)
+- **Peeling Diamantado** — microdermoabrasão com ponteira diamantada
+- **Peeling Ultrassônico** — limpeza profunda indolor com vibrações ultrassônicas
+- **Microagulhamento** — estímulo da produção de colágeno, indicado para marcas de acne, linhas finas e poros dilatados
+- **Fototerapia** — luzes terapêuticas para controle de acne, redução de inflamações e regeneração celular
+- **Drenagem Linfática Facial** — massagem suave para reduzir inchaço e eliminar toxinas
+- **Hidratação Facial** — reposição profunda de água e nutrientes
+- **Protocolos Anti-Aging** — combinação de técnicas avançadas anti-envelhecimento
 
 ## Áreas atendidas
 
@@ -41,7 +44,7 @@ Moema, Vila Mariana, Itaim Bibi, Vila Nova Conceição, Campo Belo, Ibirapuera.
 - LGBTQ+ friendly
 - Aceita todos os cartões, NFC e PIX
 - Cosméticos profissionais ADCOS
-- Equipamentos profissionais HTM e Medical San (Criodermis)
+- Equipamentos profissionais HTM, Medical San (Criodermis) e aparelhos de alta frequência
 - Aromaterapia no ambiente
 
 ## Conteúdo editorial
@@ -50,7 +53,7 @@ Moema, Vila Mariana, Itaim Bibi, Vila Nova Conceição, Campo Belo, Ibirapuera.
 
 ## Cursos
 
-A clínica oferece também **Curso Livre de Limpeza de Pele**, de natureza não-profissionalizante, voltado ao autocuidado e ao conhecimento da técnica. Detalhes em: https://adrianareisestetica.com.br/cursos/
+A clínica oferece também **Curso Livre de Limpeza de Pele**, de natureza não-profissionalizante, voltado ao autocuidado e ao conhecimento prático da técnica. Conteúdo inclui avaliação de tipos de pele, higienização, esfoliação, extração, máscaras, finalização e uso de aparelhos associados (vapor de ozônio e alta frequência). Detalhes em: https://adrianareisestetica.com.br/cursos/
 
 ## FAQs principais
 
@@ -59,4 +62,3 @@ A clínica oferece também **Curso Livre de Limpeza de Pele**, de natureza não-
 - Frequência recomendada: 30-90 dias dependendo do tipo de pele
 - Estacionamento: sim, valet no local
 - Formas de pagamento: cartões (todas bandeiras), NFC, PIX
-
