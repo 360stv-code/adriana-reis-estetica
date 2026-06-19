@@ -44,9 +44,9 @@ body.ready { opacity: 1; }
   "@context": "https://schema.org",
   "@type": "Course",
   "name": "Curso Livre de Limpeza de Pele",
-  "description": "Curso livre voltado ao autocuidado e ao conhecimento prático da técnica de limpeza de pele. Conteúdo prático com Adriana Reis em Moema, São Paulo. Não é curso profissionalizante.",
+  "description": "Curso livre não-profissionalizante voltado ao autocuidado e ao conhecimento prático da técnica de limpeza de pele, ministrado por Adriana Reis em Moema, São Paulo.",
   "url": "https://adrianareisestetica.com.br/cursos/",
-  "image": "https://adrianareisestetica.com.br/img/estetica-moema-cosmeticos-profissionais-adcos.jpg",
+  "image": "https://adrianareisestetica.com.br/img/estetica-moema-aparelhos-profissionais.jpg",
   "provider": {
     "@type": "Organization",
     "name": "Adriana Reis Beauty",
@@ -55,32 +55,34 @@ body.ready { opacity: 1; }
   },
   "educationalCredentialAwarded": "Certificado de conclusão de curso livre (não-profissionalizante)",
   "inLanguage": "pt-BR",
-  "courseMode": "in-person",
-  "locationCreated": {
-    "@type": "Place",
-    "name": "Adriana Reis Beauty - Moema",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Avenida Rouxinol, 1041 - Sala 406",
-      "addressLocality": "São Paulo",
-      "addressRegion": "SP",
-      "postalCode": "04516-001",
-      "addressCountry": "BR"
-    }
-  },
-  "hasCourseInstance": {
+  "hasCourseInstance": [{
     "@type": "CourseInstance",
-    "courseMode": "in-person",
+    "courseMode": "Onsite",
+    "courseWorkload": "PT8H",
     "location": {
       "@type": "Place",
       "name": "Adriana Reis Beauty",
-      "address": "Av. Rouxinol, 1041 - Sala 406, Moema, São Paulo - SP"
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Avenida Rouxinol, 1041 - Sala 406",
+        "addressLocality": "São Paulo",
+        "addressRegion": "SP",
+        "postalCode": "04516-001",
+        "addressCountry": "BR"
+      }
     },
     "instructor": {
       "@type": "Person",
       "name": "Adriana Reis"
     }
-  }
+  }],
+  "offers": [{
+    "@type": "Offer",
+    "category": "Paid",
+    "priceCurrency": "BRL",
+    "availability": "https://schema.org/InStock",
+    "url": "https://wa.me/5511945248415"
+  }]
 }
 </script>
 
