@@ -5,42 +5,23 @@
 
   <url>
     <loc>https://adrianareisestetica.com.br/</loc>
-    <lastmod>2026-06-19</lastmod>
+    <lastmod>2026-06-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
     <loc>https://adrianareisestetica.com.br/cursos/</loc>
-    <lastmod>2026-06-19</lastmod>
+    <lastmod>2026-06-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://adrianareisestetica.com.br/noticias/</loc>
-    <lastmod>2026-06-19</lastmod>
+    <lastmod>2026-06-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://adrianareisestetica.com.br/noticias/rosto-de-mounjaro-em-moema/</loc>
-    <lastmod>2026-06-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-    <news:news>
-      <news:publication>
-        <news:name>Adriana Reis Beauty</news:name>
-        <news:language>pt</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-19</news:publication_date>
-      <news:title>Rosto de Mounjaro em Moema: tratamentos sem injetáveis (2026)</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://adrianareisestetica.com.br/img/rosto-de-mounjaro-flacidez-facial.jpg</image:loc>
-      <image:title>Rosto de Mounjaro: flacidez característica</image:title>
-    </image:image>
   </url>
 
   <url>
@@ -48,14 +29,6 @@
     <lastmod>2026-06-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <news:news>
-      <news:publication>
-        <news:name>Adriana Reis Beauty</news:name>
-        <news:language>pt</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-06</news:publication_date>
-      <news:title>Limpeza de Pele em Moema: Guia Completo + Onde Fazer (2026)</news:title>
-    </news:news>
     <image:image>
       <image:loc>https://adrianareisestetica.com.br/img/estetica-moema-cabine-tratamento.jpg</image:loc>
       <image:title>Limpeza de pele profissional em Moema</image:title>
