@@ -6,8 +6,8 @@
 <meta name="theme-color" content="#2a201a">
 
 <title>Estética em Moema · Adriana Reis Beauty Tratamentos</title>
-<meta name="description" content="Estética em Moema: limpeza de pele, peeling diamantado e ultrassônico, microagulhamento, fototerapia, drenagem linfática e protocolos anti-aging. Atendimento personalizado com Adriana Reis.">
-<meta name="keywords" content="estética Moema, estética avançada Moema, clínica de estética Moema, limpeza de pele Moema, peeling Moema, radiofrequência facial Moema, tratamentos faciais Moema, anti-aging Moema, esteticista Moema, Adriana Reis Beauty">
+<meta name="description" content="Estética em Moema: limpeza de pele, microagulhamento, dermaplaning, revitalização Atomy, peeling diamantado e ultrassônico, fototerapia LED, clareamento, criolipólise e criofrequência. Atendimento personalizado com Adriana Reis.">
+<meta name="keywords" content="estética Moema, estética avançada Moema, clínica de estética Moema, limpeza de pele Moema, microagulhamento Moema, dermaplaning Moema, revitalização Atomy Moema, criolipólise Moema, criofrequência Moema, peeling Moema, fototerapia LED Moema, clareamento facial Moema, drenagem linfática Moema, anti-aging Moema, esteticista Moema, Adriana Reis Beauty">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 <meta name="author" content="Adriana Reis Beauty">
 <meta name="rating" content="general">
@@ -646,14 +646,32 @@ h3 { font-size: clamp(1.3rem, 3vw, 1.55rem); font-weight: 500; }
 @media (min-width: 540px) { .hero-cta { flex-direction: row; } }
 
 /* Services */
+
+.services-category { margin-bottom: 64px; }
+.services-category:last-child { margin-bottom: 0; }
+.services-category-title { font-family: var(--font-display); font-weight: 400; font-style: italic; font-size: clamp(1.6rem, 3.2vw, 2.1rem); color: var(--gold-dark); margin-bottom: 32px; text-align: center; position: relative; padding-bottom: 20px; }
+.services-category-title::after { content: ''; position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); width: 50px; height: 1px; background: var(--gold); }
+
 .services-grid {
   display: grid;
   grid-template-columns: 1fr;
   gap: 0;
   border-top: 1px solid var(--line);
 }
-@media (min-width: 700px) { .services-grid { grid-template-columns: 1fr 1fr; } }
-@media (min-width: 1000px) { .services-grid { grid-template-columns: 1fr 1fr 1fr; } }
+@media (min-width: 700px) { 
+.services-category { margin-bottom: 64px; }
+.services-category:last-child { margin-bottom: 0; }
+.services-category-title { font-family: var(--font-display); font-weight: 400; font-style: italic; font-size: clamp(1.6rem, 3.2vw, 2.1rem); color: var(--gold-dark); margin-bottom: 32px; text-align: center; position: relative; padding-bottom: 20px; }
+.services-category-title::after { content: ''; position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); width: 50px; height: 1px; background: var(--gold); }
+
+.services-grid { grid-template-columns: 1fr 1fr; } }
+@media (min-width: 1000px) { 
+.services-category { margin-bottom: 64px; }
+.services-category:last-child { margin-bottom: 0; }
+.services-category-title { font-family: var(--font-display); font-weight: 400; font-style: italic; font-size: clamp(1.6rem, 3.2vw, 2.1rem); color: var(--gold-dark); margin-bottom: 32px; text-align: center; position: relative; padding-bottom: 20px; }
+.services-category-title::after { content: ''; position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); width: 50px; height: 1px; background: var(--gold); }
+
+.services-grid { grid-template-columns: 1fr 1fr 1fr; } }
 
 .service-card {
   padding: 50px 36px;
@@ -1184,47 +1202,86 @@ h3 { font-size: clamp(1.3rem, 3vw, 1.55rem); font-weight: 500; }
       <h2>Protocolos <em>desenhados</em> para você</h2>
     </div>
 
-    <div class="services-grid">
-      <article class="service-card reveal">
-        <div class="service-num">I.</div>
-        <h3>Limpeza de Pele Profunda</h3>
-        <p>Higienização, esfoliação, vapor de ozônio, extração e máscara personalizada. Protocolo completo para uma pele renovada e radiante.</p>
-      </article>
-      <article class="service-card reveal reveal-delay-1">
-        <div class="service-num">II.</div>
-        <h3>Peeling Diamantado</h3>
-        <p>Microdermoabrasão com ponteira diamantada. Esfoliação mecânica controlada que renova a pele, suaviza marcas e melhora a textura.</p>
-      </article>
-      <article class="service-card reveal reveal-delay-2">
-        <div class="service-num">III.</div>
-        <h3>Peeling Ultrassônico</h3>
-        <p>Limpeza profunda e indolor com vibrações ultrassônicas. Remove células mortas, controla a oleosidade, desobstrui poros e favorece a absorção de ativos.</p>
-      </article>
-      <article class="service-card reveal">
-        <div class="service-num">IV.</div>
-        <h3>Microagulhamento</h3>
-        <p>Estímulo natural da produção de colágeno. Indicado para marcas de acne, linhas finas, poros dilatados — deixa a pele mais firme, lisa e rejuvenescida.</p>
-      </article>
-      <article class="service-card reveal reveal-delay-1">
-        <div class="service-num">V.</div>
-        <h3>Fototerapia</h3>
-        <p>Luzes terapêuticas que auxiliam no controle da acne, reduzem inflamações e estimulam a regeneração celular. Pode ser associada a outros protocolos.</p>
-      </article>
-      <article class="service-card reveal reveal-delay-2">
-        <div class="service-num">VI.</div>
-        <h3>Drenagem Linfática</h3>
-        <p>Massagem suave que estimula a circulação e auxilia o organismo a eliminar líquidos e toxinas. Reduz inchaço, traz sensação de leveza e potencializa a recuperação pós-procedimentos.</p>
-      </article>
-      <article class="service-card reveal">
-        <div class="service-num">VII.</div>
-        <h3>Hidratação Facial</h3>
-        <p>Reposição profunda de água e nutrientes para uma pele luminosa, viçosa e com aparência rejuvenescida.</p>
-      </article>
-      <article class="service-card reveal reveal-delay-1">
-        <div class="service-num">VIII.</div>
-        <h3>Protocolos Anti-Aging</h3>
-        <p>Combinação de técnicas avançadas para prevenir e combater sinais de envelhecimento, mantendo a pele jovem.</p>
-      </article>
+    <div class="services-category">
+      <h3 class="services-category-title">Estética Facial</h3>
+      <div class="services-grid">
+        <article class="service-card reveal">
+          <div class="service-num">I.</div>
+          <h3>Limpeza de Pele Profunda</h3>
+          <p>Higienização, esfoliação, vapor de ozônio, extração e máscara personalizada. Protocolo completo para uma pele renovada e radiante.</p>
+        </article>
+        <article class="service-card reveal reveal-delay-1">
+          <div class="service-num">II.</div>
+          <h3>Microagulhamento</h3>
+          <p>Estímulo natural da produção de colágeno. Indicado para marcas finas, poros dilatados e rejuvenescimento — pele mais firme, lisa e viçosa.</p>
+        </article>
+        <article class="service-card reveal reveal-delay-2">
+          <div class="service-num">III.</div>
+          <h3>Revitalização Facial Atomy</h3>
+          <p>Protocolo premium com ativos da linha Atomy. Devolve viço, luminosidade e uniformidade à pele, com efeito revitalizante imediato.</p>
+        </article>
+        <article class="service-card reveal">
+          <div class="service-num">IV.</div>
+          <h3>Dermaplaning</h3>
+          <p>Esfoliação manual precisa que remove células mortas e penugem facial. Pele instantaneamente mais lisa, luminosa e preparada para absorver ativos.</p>
+        </article>
+        <article class="service-card reveal reveal-delay-1">
+          <div class="service-num">V.</div>
+          <h3>Peeling Diamantado</h3>
+          <p>Microdermoabrasão com ponteira diamantada. Esfoliação mecânica controlada que renova a pele, suaviza marcas e melhora a textura.</p>
+        </article>
+        <article class="service-card reveal reveal-delay-2">
+          <div class="service-num">VI.</div>
+          <h3>Peeling Ultrassônico</h3>
+          <p>Limpeza profunda e indolor com vibrações ultrassônicas. Remove células mortas, controla a oleosidade, desobstrui poros e favorece a absorção de ativos.</p>
+        </article>
+        <article class="service-card reveal">
+          <div class="service-num">VII.</div>
+          <h3>Fototerapia com LED</h3>
+          <p>Luzes terapêuticas que auxiliam no controle da acne, reduzem inflamações e estimulam a regeneração celular. Pode ser associada a outros protocolos.</p>
+        </article>
+        <article class="service-card reveal reveal-delay-1">
+          <div class="service-num">VIII.</div>
+          <h3>Drenagem Linfática Facial</h3>
+          <p>Técnica suave que estimula a circulação do rosto, reduz inchaço facial e devolve contorno. Potencializa qualquer protocolo estético.</p>
+        </article>
+        <article class="service-card reveal reveal-delay-2">
+          <div class="service-num">IX.</div>
+          <h3>Hidratação Profunda</h3>
+          <p>Reposição profunda de água e nutrientes para uma pele luminosa, viçosa e com aparência rejuvenescida.</p>
+        </article>
+        <article class="service-card reveal">
+          <div class="service-num">X.</div>
+          <h3>Protocolo de Clareamento Facial</h3>
+          <p>Protocolo específico para redução de manchas e uniformização do tom da pele. Combina ativos clareadores e estímulos profissionais.</p>
+        </article>
+        <article class="service-card reveal reveal-delay-1">
+          <div class="service-num">XI.</div>
+          <h3>Protocolos Anti-Aging</h3>
+          <p>Combinação de técnicas avançadas para prevenir e combater sinais de envelhecimento, mantendo a pele jovem.</p>
+        </article>
+      </div>
+    </div>
+
+    <div class="services-category">
+      <h3 class="services-category-title">Estética Corporal</h3>
+      <div class="services-grid">
+        <article class="service-card reveal">
+          <div class="service-num">I.</div>
+          <h3>Drenagem Linfática Corporal</h3>
+          <p>Massagem suave que estimula a circulação e auxilia o organismo a eliminar líquidos e toxinas. Reduz inchaço e traz sensação de leveza.</p>
+        </article>
+        <article class="service-card reveal reveal-delay-1">
+          <div class="service-num">II.</div>
+          <h3>Criolipólise</h3>
+          <p>Tratamento não-invasivo para redução de gordura localizada por resfriamento controlado. Resultados graduais e naturais.</p>
+        </article>
+        <article class="service-card reveal reveal-delay-2">
+          <div class="service-num">III.</div>
+          <h3>Criofrequência</h3>
+          <p>Radiofrequência combinada com resfriamento. Firmeza, tratamento de flacidez e estímulo profundo de colágeno em uma única sessão.</p>
+        </article>
+      </div>
     </div>
   </div>
 </section>
