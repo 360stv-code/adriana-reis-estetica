@@ -5,7 +5,7 @@
 
   <url>
     <loc>https://adrianareisestetica.com.br/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -19,9 +19,28 @@
 
   <url>
     <loc>https://adrianareisestetica.com.br/noticias/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://adrianareisestetica.com.br/noticias/depilacao-a-laser-soprano-ice-em-moema/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+    <news:news>
+      <news:publication>
+        <news:name>Adriana Reis Beauty</news:name>
+        <news:language>pt</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-12</news:publication_date>
+      <news:title>Depilação a Laser Soprano Ice em Moema: indolor e para todos os tons de pele (2026)</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://adrianareisestetica.com.br/img/depilacao-laser-soprano-ice-moema.jpg</image:loc>
+      <image:title>Depilação a laser Soprano Ice em Moema</image:title>
+    </image:image>
   </url>
 
   <url>
